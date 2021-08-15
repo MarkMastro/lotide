@@ -1,0 +1,22 @@
+{
+  "name": "@markmastro/lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkMastro/lotide.git"
+  },
+  "author": "Mark Mastropaolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkMastro/lotide/issues"
+  },
+  "homepage": "https://github.com/MarkMastro/lotide#readme"
+}
