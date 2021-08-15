@@ -1,5 +1,3 @@
-const assertEqual=require('./assertEqual')
-
 const eqArrays = function(actual, expected) {
   if (actual.length === expected.length) {
     for (let i = 0; i < actual.length; i++) {
@@ -11,5 +9,5 @@ const eqArrays = function(actual, expected) {
     return false;
   }
 };
-module.exports=eqArrays;
+module.exports = eqArrays;
 
