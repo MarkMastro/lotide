@@ -13,8 +13,8 @@ const dict = {
 
 
 describe("#findKey", () => {
-  it("returns noma and ora for x => x.stars === 2", () => {
-    assert.deepEqual(findKey(dict, x => x.stars === 2), ["noma", "Ora"]);
+  it("returns noma for x => x.stars === 2", () => {
+    assert.strictEqual(findKey(dict, x => x.stars === 2), "noma");
   });
 
 });
